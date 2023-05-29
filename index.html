@@ -5,12 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Web</title>
+    <style>
+       body{
+        background-color: darkcyan;
+       }
+       .name {
+        text-align: center;
+        font-size: 50px;
+       }
+        .description {
+        text-align: center;
+        font-size: 30px;
+        background-color: black;
+        color: whitesmoke;
+       }
+        .list {
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+            color: whitesmoke;
+        }
+        .blog {
+            font-size: 40px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .tail {
+            font-size: 30px;
+        }
+        .picture {
+            text-align: center;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
 </head>
 <body>
-    <h1>Caio Souza da Costa</h1>
-    <h2 id="foto minha"><img src="./autoretrato.jpg" alt="Estudande de desenvolvimento de software da trybe" width="300px"></h2>
-    <h3><em>Me chamo Caio, tenho 22 anos sou estudante de engenharia nuclear e desenvolvimento de software. Sou do Rio de Janeiro, Brasil!</em></h3>
-    <ul><h3 id="Habilidades individuais do estudante"><strong>Dentre as habilidades que possuo, destaco:</strong></h3>
+    <h1 class="name" id="nome">Caio Souza da Costa</h1>
+    <h2 class="picture" id="foto minha"><img src="./autoretrato.jpg" alt="Estudande de desenvolvimento de software da trybe" width="300px"></h2>
+    <h3 class="description"><em>Me chamo Caio, tenho 22 anos sou estudante de engenharia nuclear e desenvolvimento de software. Sou do Rio de Janeiro, Brasil!</em></h3>
+    <ul class="list"><h3 id="Habilidades individuais do estudante">Dentre as habilidades que possuo, destaco:</h3>
         <li>Organização</li>
         <li>Determinação</li>
         <li>Foco</li>
@@ -18,7 +62,7 @@
         <li>Facilidade de Aprendizado</li>
         <li>Proatividade</li>
     </ul>
-    <p id="Predileções do estudante"><a href="https://spacetoday.com.br/" target="_blank">Curto este blog</a></p>
+    <p id="blog" class="blog"><a href="https://spacetoday.com.br/" target="_blank">Blog que me interessa</a></p>
     
     
     <p>.</p>
@@ -60,10 +104,10 @@
     <p>.</p>
     <p>.</p>
 
-    <ol>
+    <ol class="tail">
         <li><a href="#foto minha">Autoretrato</a></li>
         <li><a href="#Habilidades individuais do estudante">Habilidades individuais do estudante</a></li>
-        <li><a href="#Predileções do estudante">Predileções do estudante</a></li>
+        <li><a href="#blog">Predileções do estudante</a></li>
     </ol>
 
     
