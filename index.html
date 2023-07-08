@@ -2,119 +2,70 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Web</title>
-    <style>
-       body{
-        background-color: darkcyan;
-       }
-       .name {
-        text-align: center;
-        font-size: 60px;
-       }
-        .description {
-        text-align: center;
-        font-size: 30px;
-        background-color: black;
-        color: whitesmoke;
-       }
-        .list {
-            font-weight: bold;
-            font-size: 30px;
-            text-align: center;
-            color: whitesmoke;
-        }
-        .blog {
-            font-size: 40px;
-            font-family: sans-serif;
-            text-align: center;
-        }
-        .tail {
-            font-size: 30px;
-        }
-        .picture {
-            text-align: center;
-        }
-
-        ul:hover, ol:hover {
-            background-color: red;
-        }
-
-
-
-
-
-
-
-
-
-
-    </style>
+    <title>Caio Costa - Portifólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="name" id="nome">Caio Souza da Costa</h1>
-    <h2 class="picture" id="foto minha"><img src="./autoretrato.jpg" alt="Estudande de desenvolvimento de software da trybe" width="400px"></h2>
-    <h3 class="description"><em>Me chamo Caio, tenho 22 anos sou estudante de engenharia nuclear e desenvolvimento de software. Sou do Rio de Janeiro, Brasil!</em></h3>
-    <ul class="list"><h3 id="Habilidades individuais do estudante">Dentre as habilidades que possuo, destaco:</h3>
-        <li>Organização</li>
+    <header id="cabecalho"><h1 id="titulo" >Meu portifólio Web</h1></header>
+    <div>
+    <aside class="lado-esquerdo">
+        <img id="minha_foto" src="minha_foto.jpg" alt="Um autoretrato de um brilhante estudante da trybe">
+    <p>Meu nome é Caio Souza da Costa, Tenho 22 anos. Sou do Rio de Janeiro. Sou estudante de Engenharia Nuclear e Desenvolvimento de software. Sou apaixonado por games, musica e filmes. <strong>Pretendo me tornar um desenvolvedor!</strong></p>
+    </aside>
+    
+    <article class="lado-direito">
+        <h2 id="aprendizado">Sobre o meu aprendizado:</h2>
+        <p id="p1">Durante o tempo de curso, aprendi diversas coisas! Por enquanto, o foco foi maior em manipular o HTML e, juntamente, o Css. De forma análoga, também aprendi a dar mais importância a parte ao redor do desenvolvimento de software: a saúde! Tanto emocional quanto a saúde física. Assim, portanto, evoluindo um pouco a cada dia.</p>
+    </article>
+    </div>
+    <h2 id="tabela" >Meus horários de estudo:</h2>
+    <table>
+        <tr id="tr">
+            <th>Segunda-feira</th>
+            <th>Terça-feira</th>
+            <th>Quarta-feira</th>
+            <th>Quinta-feira</th>
+            <th>Sexta-feira</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+        </tr>
+        <tr id="tr2">
+            <td>13h - 20h</td>
+            <td>13h - 20h</td>
+            <td>13h - 20h</td>
+            <td>13h - 20h</td>
+            <td>13h - 20h</td>
+            <td>15h - 18h</td>
+            <td>15h - 18h</td>
+        </tr>
+    </table>
+    <h2>Lições aprendidas:</h2>
+    <ol id="licoes_aprendidas">
+        <li>Unix</li>
+        <li>Git</li>
+        <li>Github</li>
+        <li>Shell</li>
+        <li>Html</li>
+        <li>Css</li>
+        <li>JavaScript</li>
         <li>Determinação</li>
-        <li>Foco</li>
+        <li>Prática</li>
         <li>Disciplina</li>
-        <li>Facilidade de Aprendizado</li>
-        <li>Proatividade</li>
-    </ul>
-    <p id="blog" class="blog"><a href="https://spacetoday.com.br/" target="_blank">Blog que me interessa</a></p>
-    
-    
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-
-    <ol class="tail">
-        <li><a href="#foto minha">Autoretrato</a></li>
-        <li><a href="#Habilidades individuais do estudante">Habilidades individuais do estudante</a></li>
-        <li><a href="#blog">Predileções do estudante</a></li>
     </ol>
-
-    
-    
-    
-
+    <h2>Lições a aprender:</h2>
+    <ul id="licoes_a_aprender">
+        <li>JavaScript dentro do Html</li>
+        <li>Array e estrutura de repetição</li>
+        <li>funções em JavaScript</li>
+        <li>Objetos em JavaScript</li>
+        <li>JSON</li>
+        <li>DOM e seletores</li>
+        <li>Web Storage</li>
+        <li>Arte com pixels</li>
+        <li>Flexbox</li>
+        <li>JavaScript ES6</li>
+    </ul>
+    <p ><a id="link" href="https://www.betrybe.com/" target="_blank">Minha escola de programação</a></p>
+    <footer id="rodape">Copyright - @caio-coast</footer>
 </body>
 </html>
