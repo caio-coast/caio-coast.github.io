@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(253, 251, 251);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: rgb(3, 3, 2);
+    line-height: 30px;
+  }
+  
+  header {
+    background-color: lightgrey;
+    top: 0;
+    outline: auto;
+    padding: 25px;
+    text-align: center;
+    margin-top: none;
+    position: fixed;
+    width: 100%;
+  }
+
+  footer {
+    background-color: lightgrey;
+    outline: auto;
+    padding: 25px;
+    text-align: center; 
+  }
+  
+  div {
+      width: 100%;
+  }
+
+  img {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lado-esquerdo {
+    display: inline-block;
+    width: 45%;
+    margin-top: 150px;
+    text-align: center;
+    padding-top: 30px;
+    font-style: italic;
+  }
+  
+  .lado-direito {
+    text-align: center;
+    display: inline-block;
+    padding-right: 60px;
+    width: 45%;
+  }
+
+  tr , #tr {
+    text-align: center;
+    background-color: grey;
+  }
+  
+  #tr2 {
+    background-color: lightgrey;
+  }
+
+  table {
+    background-color: black;
+  }
+  #tabela {
+    text-align: center;
+  }
+
+  th {
+    width: 300px;
+  }
+
+  #link {
+    text-decoration: none;
+    background-color: rgb(3 72 36);
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+  }
+  #link:hover {
+    color: black;
+    background-color: rgb(225 242 213);
+  }
+
+  p {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  #aprendizado {
+    text-align: center;
+  }
+  
